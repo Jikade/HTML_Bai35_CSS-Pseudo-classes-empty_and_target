@@ -1,0 +1,16 @@
+/* Tác động lên thẻ div mà bên trong nó không có gì */
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);
+}
+
+h2:target {
+  color: blue;
+}
