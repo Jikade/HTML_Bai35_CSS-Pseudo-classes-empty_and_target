@@ -5,12 +5,14 @@
   background-color: blue;
 }
 
+/* Tác động lên thẻ div mà bên trong nó có nội dung */
 .div_elm {
   width: 200px;
   height: 200px;
   background-color: rgb(255, 0, 0);
 }
 
+/* Tác động lên thẻ h2 được tương tác bằng id và thẻ a */
 h2:target {
   color: blue;
 }
